@@ -18,8 +18,26 @@ if but:
   
 but1 = st.button("Substraction")
 if but1:
-  st.write("Substraction of all 3 numbers is: ", num1 - num2 - num3)
+  sub1 = num1-num2-num3
+  sub2 = num2-num3-num1
+  sub3 = num3-num2-num1
+  
+  if sub1 >= 0:
+    st.write("Substraction of all 3 numbers is: ", sub1)
+  
+  elif sub2 >= 0:
+    st.write("Substraction of all 3 numbers is: ", sub2)
+    
+  elif sub3 >= 0:
+    st.write("Substraction of all 3 numbers is: ", sub3)
+    
+  else:
+    st.write("Result is in negative figure!!!")
+  
+  # st.write("Substraction of all 3 numbers is: ", num2 - num1 - num3)
+  # st.write("Substraction of all 3 numbers is: ", num3 - num2 - num1)
   
 but2 = st.button("Multiplication")
 if but2:
   st.write("Multiplication of all 3 numbers is: ", num1 * num2 * num3)
+  
