@@ -6,4 +6,4 @@ st.title("Maths calculation app")
 st.markdown("This app will help you to solve your simple mathematics calculations....")
 
 
-st.sidebar.success("Select Any Page from here")
+st.sidebar.success("You are on Home page")
