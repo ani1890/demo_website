@@ -11,3 +11,4 @@ if but1:
     st.write()
     st.write(num1, "X", i, "=", mul)
     i +=1
+st.sidebar.success("You are on Tables page.")
