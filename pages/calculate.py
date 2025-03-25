@@ -55,5 +55,4 @@ if but2:
   st.write("Multiplication of all 3 numbers is: ", mul)
   st.markdown("![Alt Text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjMyNXZwMzloYjRwdnN5bzVscXJmcDVyMTJiOHgwc24ya3RoN2loYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MelhioWPAo6k4Q6BTp/giphy.gif)")
   
-
-  
+st.sidebar.success("You are on calculation page.")
