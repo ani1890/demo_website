@@ -6,6 +6,8 @@ import time
 # city = st.selectbox("Choose city", ("Mumbai", "Pune", "Bangalore"))
 # pin = st.number_input("Enter your pincode :", value=None, step=1)
 
+st.title("This is calculation page.")
+
 num1 = st.number_input("1st number : ", value=None, step=1)
 num2 = st.number_input("2nd number : ", value=None, step=1)
 num3 = st.number_input("3rd number : ", value=None, step=1)
